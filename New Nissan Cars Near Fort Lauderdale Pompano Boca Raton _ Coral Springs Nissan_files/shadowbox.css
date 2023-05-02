@@ -1,0 +1,397 @@
+.lesa_realoffer {
+cursor: pointer;
+margin-top: 5px;
+}
+
+.lesa-texascarone {
+width: 100%;
+margin: 3px;
+}
+
+.lesa-w-100 {
+width:100%;
+}
+
+.lesa-d-50-m-100 {
+width:50%;
+margin: 0 auto;
+}
+
+div.pswp__item .lesa_ddc_gallery {
+    width: 60%!important;
+    height: calc(60vw * (9/16))!important;
+    margin-left: 20vw!important;
+}
+
+.btn-default.les_video:hover { background: #33333300; !important  }
+
+#sb-title-inner {
+    display: none;
+}
+
+#sb-title-inner,
+#sb-info-inner,
+#sb-loading-inner,
+div.sb-message {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+#sb-container {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    text-align: left;
+    visibility: hidden;
+    display: none;
+}
+
+#sb-overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#sb-wrapper {
+    position: absolute;
+    visibility: hidden;
+    width: 100px;
+}
+
+#sb-wrapper-inner {
+    position: relative;
+    border: 1px solid #303030;
+    overflow: hidden;
+    height: 100px;
+}
+
+#sb-body {
+    position: relative;
+    height: 100%;
+}
+
+#sb-body-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#sb-player.html {
+    height: 100%;
+    overflow: auto;
+}
+
+#sb-player {
+    margin: 0 0 !important;
+}
+
+#sb-body img {
+    border: none;
+}
+
+#sb-loading {
+    position: relative;
+    height: 100%;
+}
+
+#sb-loading-inner {
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+    width: 100%;
+    text-align: center;
+}
+
+#sb-loading-inner span {
+    background: url(loading.gif) no-repeat;
+    padding-left: 34px;
+    display: inline-block;
+}
+
+#sb-body,
+#sb-loading {
+    background-color: #060606;
+}
+
+#sb-title,
+#sb-info {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#sb-title,
+#sb-title-inner {
+    height: 26px;
+    line-height: 26px;
+}
+
+#sb-title-inner {
+    font-size: 16px;
+}
+
+#sb-info,
+#sb-info-inner {
+    height: 20px;
+    line-height: 20px;
+}
+
+#sb-info-inner {
+    font-size: 12px;
+}
+
+#sb-nav {
+    float: right;
+    height: 16px;
+    padding: 2px 0;
+    width: 45%;
+}
+
+#sb-nav a {
+    display: block;
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+#sb-nav-close {
+    background-image: url(close.png);
+}
+
+#sb-nav-next {
+    background-image: url(next.png);
+}
+
+#sb-nav-previous {
+    background-image: url(previous.png);
+}
+
+#sb-nav-play {
+    background-image: url(play.png);
+}
+
+#sb-nav-pause {
+    background-image: url(pause.png);
+}
+
+#sb-counter {
+    float: left;
+    width: 45%;
+}
+
+#sb-counter a {
+    padding: 0 4px 0 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#sb-counter a.sb-counter-current {
+    text-decoration: underline;
+}
+
+div.sb-message {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+div.sb-message a:link,
+div.sb-message a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.page-type-VehicleSearchResults.bg-repeat-fullscreen.bg-attachment-fixed.bg-custom-image.design-Multibrand_Experience.color-Excursion .onecolumn .actions .les_video {
+    transform: scaleY(-1);
+}
+
+.page-type-VehicleSearchResults.bg-repeat-fullscreen.bg-attachment-fixed.design-Multibrand_Experience.color-Race.browserWidthNavigation.mast-browserWidth .actions.dor-enabled .les_video {
+    margin-right: 65px;
+}
+
+.page-type-VehicleSearchResults.bg-repeat-fullscreen.bg-attachment-fixed.bg-color.design-Multibrand_Experience.color-Course.pageWidthNavigation .actions.eprice-flexplus.dor-enabled .les_video {
+    float: left !important;
+    ;
+    right: inherit !important;
+    margin-top: -165px !important;
+    position: inherit !important;
+}
+
+#sb-body-inner iframe {
+    height: 100% !important;
+}
+
+.experience-chrome.page-VehicleDetails.responsive .cell.CobaltTrackedComponent.grid-tile.grid-width-4.grid-height-50.default-hidden.masonry-brick {
+    top: 629px !important;
+}
+
+.experience-chrome.page-VehicleDetails.responsive .cblt-panel.no-chrome.inventoryDetailsVehicleGlance.flex-tile-3.flex-width-12 {
+    margin-top: 15px !important;
+}
+
+.experience-chrome.page-VehicleDetails.responsive .cell.CobaltTrackedComponent.grid-tile.grid-width-4.grid-height-115.default-hidden.masonry-brick {
+    top: 45px !important;
+}
+
+.page-type-VehicleSearchResults.bg-repeat-fullscreen.bg-attachment-fixed.bg-color.bg-custom-image.design-Multibrand_Experience.color-Excursion .rowFooter .les_video {
+    margin-top: -23px !important;
+}
+
+body.vw.blue .actions.eprice-flexplus .les_video {
+    margin-top: -21px !important;
+}
+
+.site-live.bg-color .responsive-images.cblt-panel.inventorySearchResults.vsrmathbox.sewell-list-v2 .rowFooter .les_video {
+    margin-top: -24px !important;
+}
+
+.js.flexbox.flexboxlegacy .site-live.bg-repeat-fullscreen.bg-attachment-scroll.bg-custom-image.browserWidthNavigation.mast-browserWidth .actions .les_video {
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    -ms-transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+
+/*.ddc-container .les_video .btn-overlay{*/
+
+
+/*width: 380px !important;max-width: 380px !important;*/
+
+
+/*}*/
+
+.ddc-container .les_video_overlay {
+    margin-left: 0%;
+    margin-top: 20%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .ddc-container #les_video.les_video_overlay {
+        margin-top: -50% !important;
+        margin-left: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .ddc-container .les_video_overlay {
+        width: auto !important;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .vlp.single-franchise.ddc-site.vertical-12.blue-white.alias-inventory-listing-default-auto-used.v9-global-0011-v1.toyota .les_video {
+        margin-top: -65% !important;
+        left: 10% !important;
+        ;
+    }
+    .vlp.single-franchise.ddc-site.vertical-12.blue-white.alias-inventory-listing-default-auto-used.v9-oem-vw-0001-v1.volkswagen .les_video {
+        margin-top: -200% !important;
+        left: 230% !important;
+        ;
+    }
+    .vlp.chrysler.multi-franchise.ddc-site.ram.jeep.vertical-12.dodge.blue-white.alias-inventory-listing-default-auto-used.v9-oem-cllc-0001-v1.mycars-logged-out .les_video {
+        left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .ddc-container .les_video {
+        left: 150% !important;
+        top: -200px;
+    }
+    .vlp.single-franchise.ddc-site.vertical-12.blue-white.alias-inventory-listing-default-auto-used.v9-global-0011-v1.toyota .les_video {
+        top: -100px !important;
+        left: 150% !important;
+        ;
+    }
+    .vlp.single-franchise.ddc-site.vertical-12.blue-white.alias-inventory-listing-default-auto-used.v9-oem-vw-0001-v1.volkswagen .les_video {
+        margin-top: -160% !important;
+        left: 130% !important;
+    }
+    .vlp.chrysler.multi-franchise.ddc-site.ram.jeep.vertical-12.dodge.blue-white.alias-inventory-listing-default-auto-used.v9-oem-cllc-0001-v1.mycars-logged-out .les_video {
+        margin-top: -30% !important;
+    }
+    .les-video-container iframe {
+        height: calc(100vw / 1.77)!important; /*  275px !important; */
+        border: none;
+    }
+    .les-video-container {
+        overflow: visible !important;
+        height: calc(100vw / 1.77)!important; /*  275px !important; */
+    }
+}
+
+@media only screen and (max-width: 667px) {
+
+.lesa-d-50-m-100 {
+width:100%;
+}
+
+    .ddc-container .les_video {
+        width: auto !important;
+        margin-top: 0% !important;
+    }
+    .ddc-container .les_video .btn-overlay {
+        left: 0px;
+        max-width: 160px;
+        margin-left: inherit;
+        width: 160px !important;
+        margin-top: 0px;
+    }
+    .ddc-container #les_video.les_video_overlay {
+        margin-top: -35% !important;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) {
+    .ddc-container .les_video .btn-overlay {}
+    .ddc-container .les_video_overlay {
+        width: auto !important;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .ddc-container #les_video.les_video_overlay {
+        margin-top: -50% !important;
+        margin-left: 30% !important;
+    }
+}
+
+.ddc-container #les_video.les_video_overlay {
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 40%;
+}
+
+.les-video-container {
+    position: relative;
+    padding-bottom: 56%;
+    padding-top: 20px;
+    height: 0;
+    overflow: hidden;
+}
+
+.les-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fancybox-overlay   {
+    z-index: 9999999 !important;
+}

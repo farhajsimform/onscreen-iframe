@@ -1,0 +1,1 @@
+"use strict";dealeron.runtime.define([],e=>class{constructor(e,t){}start(){var e;-1<window.location.href.indexOf("pt=")&&(e=document.getElementById("content-main-inventory").getBoundingClientRect().top+window.pageYOffset,e="fixed"===$(".headerWrapper").css("position")?e-$(".headerWrapper").height():e,window.scrollTo(0,e))}});

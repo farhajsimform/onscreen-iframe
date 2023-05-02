@@ -1,0 +1,1 @@
+window.postMessage(JSON.stringify({event: 'link', linking_id: 'UF5WeY0-8qgJRHwIy'}), '*')

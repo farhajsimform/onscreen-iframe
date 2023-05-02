@@ -1,0 +1,59 @@
+@-webkit-keyframes open-ff-fader {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes open-ff-fader {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.open-ff-fader {
+    -webkit-animation-name: open-ff-fader;
+    animation-name: open-ff-fader;
+    -webkit-animation: open-ff-fader 500ms;
+    animation: open-ff-fader 500ms;
+}
+
+
+@-webkit-keyframes open-ff-zoomin {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes open-ff-zoomin {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.open-ff-zoomin {
+    -webkit-animation-name: open-ff-zoomin;
+    animation-name: open-ff-zoomin;
+    -webkit-animation: open-ff-zoomin 500ms;
+    animation: open-ff-zoomin 500ms;
+}

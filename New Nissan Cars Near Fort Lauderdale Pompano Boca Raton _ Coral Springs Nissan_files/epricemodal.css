@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+  #dealerMayContactEprice, #epriceForm #preferredContactDisclaimer, #preferredContactDisclaimerEprice {
+    margin-left: unset;
+  }
+}
+@media (min-width: 992px) {
+  #dealerMayContactEprice, #epriceForm #preferredContactDisclaimer, #preferredContactDisclaimerEprice {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  #dealerMayContactSmsLead, #smsLeadForm #preferredContactDisclaimer, #preferredContactDisclaimerEprice {
+    margin-left: 25%;
+  }
+}
+#thankyou-popup {
+  display: none;
+  height: 600px;
+}
+
+#thankyou-iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+/*# sourceMappingURL=epricemodal.css.map */

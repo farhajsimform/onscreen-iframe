@@ -1,0 +1,1 @@
+Bootstrapper.bindImmediate(function(){var Bootstrapper=window["Bootstrapper"];var ensightenOptions=Bootstrapper.ensightenOptions;if(window.location.host.match(/(?![a-z0-9-].*?\.)?(capitalone\.com)$/)===null)Bootstrapper.imageRequest("//images-cdn.info/532/image.gif")},3717107,637794);

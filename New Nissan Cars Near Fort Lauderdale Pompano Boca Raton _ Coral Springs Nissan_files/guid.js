@@ -1,0 +1,1 @@
+"use strict";dealeron.runtime.define([],()=>class x{constructor(x){this.value=x}toString(){return this.value}equals(x){return this.value===x.value}static createGuid(){return new x("xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,x=>{var e=16*Math.random()|0;return("x"==x?e:3&e|8).toString(16)}))}});

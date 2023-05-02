@@ -1,0 +1,1319 @@
+/*------------------------------------*
+	CONTENTS - sections search prefix $
+	
+	GENERAL
+	FONTS
+	VEHICLE IMAGE COLUMN
+	SRP SORT
+	SRP TAGS
+	SRP INVENTORY SEARCH
+    SRP REFINE SEARCH
+    SRP RANGE FILTER
+	PRICE LIST
+	INCENTIVES
+	LOT SEPERATOR
+    MEDIA QUERY
+    TOYOTA DIGITAL GARAGE
+    ELIGIBLE BENEFIT 
+    CONSUMER REPORTS
+    CARBRAVO
+
+/*------------------------------------*
+	$GENERAL
+\*------------------------------------*/
+
+.header {
+    display: none;
+}
+.popover a { 
+    color: #FFF; 
+} 
+.srpVehicle .margin-top {
+    margin-top: 15px;
+}
+.srpReserveThisVehicle {
+    margin: 1em 0;
+}
+.srpVehicle .well-pad-none:hover {
+    border-color: #adadad;
+}
+.srpVehicle .well-pad-none {
+    float: left;
+    width: 100%;
+    border-color: #CCCCCC;
+    overflow: hidden;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #ededed;
+}
+.panel img {
+    margin-top: 0px;
+}
+.panel-default > .panel-heading {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-color: #CCCCCC;
+    color: #333333;
+}
+.panel-default {
+    border: 0px;
+}
+.panel-body {
+    background: none repeat scroll 0 0 #EDEDED;
+}
+.btn.btn-block.panel-heading {
+    border-width: 0 0 1px;
+}
+.btn.btn-block.panel-heading .panel-title {
+    position: relative;
+}
+.btn.btn-block.panel-heading .panel-title i {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.panel-default, .panel-heading, .panel-default .btn, .panel-default select, .form-group select, .well, .form-control, .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .searchRefineModalBtn {
+    border-radius: 0px;
+}
+.srpVehicle .well-pad-none {
+    padding: 0px;
+}
+.vehicleCommentsCollapsed {
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.vehicleComments {
+    padding-bottom: 5px;
+    font-size: 11.5px;
+    line-height: 1.7em;
+}
+.commentsExpand {
+    cursor: pointer;
+}
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0);
+}
+.galleria {
+    width: 100%;
+    padding: .5em;
+}
+
+.nDisplayVideoTopIcon, .uDisplayVideoTopIcon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    outline: none;
+    transform: translate(-50%, -50%);
+    color: white !important;
+    opacity: 0.7 !important;
+    filter: alpha(opacity=70) !important;
+    /*opacity==40% for <= IE8*/
+}
+
+price-details-button {
+    width: 100%
+}
+
+/*------------------------------------*
+	$MODAL CHANGES
+\*------------------------------------*/
+
+#rebateModal .modal-body {
+    height: 500px;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-body .form-group label {
+    font-size: 16px !important;
+}
+.specialMagnific {
+    padding-top: 75%;
+}
+
+.modal-content {
+    padding: 2em;
+}
+
+/*------------------------------------*
+	$FONTS
+\*------------------------------------*/
+
+.srpVehicleDetails, .srpVehicleIncentives, .vehicleDetailsLink, .vehicleImgLinks li a, .srpVehicleCount, .form-group label, #accordion, .checkbox label, .input-group input, .srpRefineSearch select, .input-group-sm > .form-control, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn, .srpInventorySearch .panel-title, .form-inline label, .srpTags .btn {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.srpVehicle h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.srpVehicle ul {
+    margin-top: 6px;
+}
+/*------------------------------------*
+	$VEHICLE IMAGE COLUMN
+\*------------------------------------*/
+
+.srpVehicle .vehicleImgColumn {
+    background: none repeat scroll 0 0 #ededed;
+    position: relative;
+}
+.srpVehicle .vehicleImgColumn .vehicleImg {
+    border: 3px solid #CCCCCC;
+    cursor: pointer;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks {
+    margin-bottom: 0;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks ul {
+    margin-top: 0px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks .btn span {
+    left: 34px;
+    position: absolute;
+    font-size: 13px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks .btn .info-icon {
+    position: static;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li .btn-alt2 {
+    font-weight: bold;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li .btn-alt2:last-child {
+    margin-bottom: 6px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:first-child {
+    margin-bottom: 6px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child {
+    margin-top: 6px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child a {
+    text-transform: capitalize;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child .fa {
+    margin-right: 8px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child ul li, .vehicleTitle, .vehicleRating {
+    margin-bottom: 0px;
+}
+.srpVehicle .vehicleRating span {
+    color: #000;
+}
+.srpVehicle .vehicleRating {
+    color: #F39B22;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child ul li a:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li:last-child .btn {
+    margin-bottom: 6px;
+}
+.srpVehicle .vehicleImgColumn .vehicleImgLinks li ul li img {
+    height: 20px;
+}
+.srpVehicle .vehicleImgLinks .btn {
+    text-align: left;
+    padding-left: 15px;
+    position: relative;
+    border-radius: 0px;
+    line-height: 1em;
+}
+.srpVehicleSpecial {
+    position: absolute;
+    top: 7px;
+    height: 25px;
+    width: 65px;
+    pointer-events: none;
+}
+
+.srpVehicleDetails, .srpVehiclePricing, .vehicleImgLinks {
+    padding-left: 0px;
+    list-style: none;
+    color: #000;
+}
+
+.srpVehicleDetails .windowSticker a:hover {
+    cursor: pointer;
+}
+
+.missingImgOverlay {
+	position: absolute;
+	bottom: 0;
+    left: 17%;
+    right: 17%;
+	height: 100%;
+	transition: .5s ease;
+	opacity:1;
+	padding: 20px;
+	text-align: center;
+    padding: 0;
+    display: table; 
+}
+
+.missingImgOverlay h1 {
+    font-size: 20px;
+    padding-top: 4.5em;
+    
+}
+.missingImgOverlay h2 {
+    padding-top: 3em;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .missingImgOverlay h1 {
+        font-size: 17px;
+    }
+    .missingImgOverlay h2 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .missingImgOverlay h1 {
+        font-size: 32px;
+    }
+    .missingImgOverlay h2 {
+        font-size: 23px;
+        padding-top: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .missingImgOverlay h1 {
+        font-size: 4.5vw;
+        padding-top: 5em;
+    }
+    .missingImgOverlay h2 {
+        font-size: 3vw;
+        padding-top: 4.5em;
+    }
+}
+/*------------------------------------*
+	$SRP SORT
+\*------------------------------------*/
+
+.srpSort .pager {
+    margin: 0px;
+    position: relative;
+}
+.srpSort .form-group {
+    margin-bottom: 0px;
+}
+.srpSort select.form-control {
+    height: 24px;
+    padding: 2px;
+}
+.srpSort label {
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.srpSort .well {
+    background: none repeat scroll 0 0 #EDEDED;
+    border-color: #CCCCCC;
+    padding: 10px;
+}
+.srpSort .well, .srpCompare {
+    margin-bottom: 10px;
+}
+/*------------------------------------*
+	$SRP TAGS
+\*------------------------------------*/
+
+.srpTags .btn {
+    padding: 4px 10px;
+}
+.srpTags .btn .fa {
+    margin-right: 0px;
+}
+.srpTags .panel-default .btn-main {
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.srpTags .btn-group label {
+    background-color: #EDEDED;
+    border-color: #C8C8C8;
+}
+.srpTags .btn-group label {
+    padding-right: 0px;
+}
+.srpTags .btn-group button {
+    border-left: 0px;
+}
+.srpTags .btn-group label.btn:hover, .srpTags .btn-group label.btn:focus, .srpTags .btn-group label.btn:active, .srpTags .btn-group label.btn.active {
+    z-index: 0!important;
+}
+.srpTags .btn-group label:first-child {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+    margin-right: 1px;
+    padding-right: 12px;
+}
+.srpTags ul, .srpTags ul li {
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+.srpTags .panel-heading {
+    padding: 7px 15px;
+}
+.srpTags .panel-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.srpTags li.btn-group .panel-default {
+    border: 1px solid #CCCCCC;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-right: 6px;
+    padding-right: 8px;
+}
+.srpTags li.btn-group .panel-default .btn-alt1 {
+    border-width: 0px 1px 0px 0px;
+}
+/*------------------------------------*
+	$SRP INVENTORY SEARCH
+\*------------------------------------*/
+
+.srpInventorySearch .form-horizontal .input-group:first-child {
+    margin-bottom: 6px;
+}
+.srpInventorySearch .form-control {
+    border-right: 0 none;
+}
+/*------------------------------------*
+	$SRP REFINE SEARCH
+\*------------------------------------*/
+
+.srpRefineSearch .pad-fix-right {
+    padding-right: 6px;
+}
+.srpRefineSearch .pad-fix-left {
+    padding-left: 6px;
+}
+.srpRefineSearch #accordion .btn-block, .srpRefineSearch #accordion .btn-block .fa {
+    line-height: 40px;
+    cursor: pointer;
+}
+.srpRefineSearch #accordion .row {
+    border-top: 1px solid #CCCCCC;
+}
+.srpRefineSearch #accordion .row:first-child {
+    border-top: 0px;
+}
+.srpRefineSearch .panel-heading h3 {
+    position: relative;
+}
+.srpRefineSearch .panel-title i {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.srpRefineSearch .btn.panel-heading {
+    border-width: 0 0 1px;
+    padding: 7px 15px;
+}
+.srpRefineSearch .panel-title {
+    font-size: 18px;
+}
+.srpRefineSearch .btn-block strong {
+    color: #000000;
+}
+.srpRefineSearch .btn-block .fa {
+    color: #828282;
+}
+.srpRefineSearch.hidden-xs select.form-control, .srpRefineSearch #selPriceFrom.form-control, .srpRefineSearch #selPriceTo.form-control, .srpRefineSearch #selMileageFrom.form-control, .srpRefineSearch #selMileageTo.form-control {
+    height: 24px;
+    padding: 2px;
+}
+.srpRefineSearch #accordion p {
+    color: #003f7a;
+}
+.srpRefineSearch #invSubmit.btn-main, .srpRefineSearch #invReset.btn-main {
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 4px 10px;
+    width: 96%;
+    text-align: center;
+}
+.srpRefineSearch #invReset.btn-main {
+    float: right;
+}
+.closeRefineSearch {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 0 0.5em;
+    padding: 0.75em;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    z-index: 20;
+}
+
+/*------------------------------------*
+	$SRP RANGE
+\*------------------------------------*/
+.srpRefineSearch .range-wrapper label {
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+}
+  
+.srpRefineSearch .range * {
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+.srpRefineSearch .range-wrapper .tab-panel {
+  display: none;
+}
+
+.srpRefineSearch .range-wrapper .tab-panel.active {
+  display: block;
+}
+
+.srpRefineSearch .price_tabs.flex-box li {
+  flex: 1;
+}
+
+.srpRefineSearch .rangeTab #PriceTabHeader a,
+.srpRefineSearch .rangeTab #MonthlyTabHeader a,
+.srpRefineSearch .rangeTab #DailyTabHeader a {
+    background: #fff;
+    color: #333;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.srpRefineSearch .range-wrapper label {
+    line-height: 30px;
+}
+  
+.srpRefineSearch .range-wrapper label:before {
+    content: none;
+}
+  
+.srpRefineSearch .range-wrapper input {
+    font-family: inherit;
+    border: 1px solid #ccc;
+    color: #666;
+    background: #fff;
+    width: 70px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -moz-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+    opacity: 1;
+}
+  
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 0;
+    background: #fff;
+    font-weight: initial;
+    color: transparent;
+}
+
+.srpRefineSearch .collapse-options {
+    padding: 0 12px 6px 12px;
+}
+
+.srpRefineSearch .flex-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -1%;
+}
+
+.srpRefineSearch .range-wrapper .nav>li,
+.srpRefineSearch .range-wrapper .nav>li>a {
+    position: relative;
+    display: block;
+}
+
+/*------------------------------------*
+	$PRICE LIST
+\*------------------------------------*/
+
+/*
+ * Popover related css
+ */
+
+.popOverContent > li > span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.popOverContent .popOverListItemContent {
+    display: block;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 767px) { 
+    .popOverContent .popOverListItemContent {
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    #dealerMayContactSearchResults, #SRPNoResultsForm #preferredContactDisclaimer {
+        margin-left: unset;
+    }
+}
+
+@media (min-width: 768px) {
+    #dealerMayContactSearchResults, #SRPNoResultsForm #preferredContactDisclaimer {
+        margin-left: 12%;
+    }
+    #SRPNoResultsForm #dealerMayContactOutput small, #SRPNoResultsForm #preferredContactDisclaimerText small {
+        margin-left: 17%;
+    }
+    #SRPNoResultsForm #dealerMayContactOutput label, #SRPNoResultsForm #preferredContactDisclaimerText label {
+        display: inline;
+    }
+}
+
+/*
+ * End Popover related css
+ */
+
+.modal-header {
+  text-align: center;
+}
+
+.srpVehiclePricing li, div[id^="srpRow"] .popover li {
+    font-size: 13px;
+    line-height: 1.5em;
+    padding-left: 6px;
+    padding-right: 50px;
+    position: relative;
+}
+.srpVehiclePricing li { 
+    clear: right;
+}
+.srpVehiclePricing .finalPrice {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 0 none;
+    padding-right: 6px;
+}
+.srpVehiclePricing .savePrice {
+    background: none repeat scroll 0 0 #ededed;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.strike {
+    text-decoration: line-through;
+}
+.srpVehiclePricing .savePrice ul {
+    margin-top: 0;
+}
+.srpVehiclePricing .savePrice li {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.srpVehiclePricing .savePrice li:first-child {
+    float: left;
+}
+.srpVehiclePricing .savePrice li:last-child {
+    float: right;
+}
+.srpVehiclePricing .rebatePopover {
+    position: absolute;
+    left: .65em;
+}
+.srpVehiclePricing .rebatePopover:hover {
+    cursor: pointer;
+}
+div[id^="srpRow"] .popover {
+    color: #FFF;
+    background-color: #333;
+    min-width: 200px;
+}
+div[id^="srpRow"] .popover .arrow::after {
+    border-left-color: #333;
+    border-right-color: #333;
+}
+div[id^="srpRow"] .popover.bottom .arrow::after {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #333;
+}
+
+.priceBlockItem .fcaEShopWidget {
+    width: 100%;
+}
+
+/*------------------------------------*
+	$INCENTIVES
+\*------------------------------------*/
+
+.srpVehicle .srpVehicleIncentives {
+    margin-top: 36px;
+}
+.srpVehicle .srpVehicleIncentives strong .modal-link, .srpVehicle .srpVehicleIncentives strong, .srpVehicle .srpVehicleIncentives p {
+    color: #000;
+}
+.srpVehicle .srpVehicleIncentives .fa {
+    color: #6d6d6d;
+}
+.srpVehicle .srpVehicleIncentives p {
+    line-height: 1.35em;
+    margin-bottom: 5px;
+}
+.srpVehicle .srpVehicleIncentives strong {
+    font-size: 15px;
+}
+/*------------------------------------*
+	$BUTTONS
+\*------------------------------------*/
+
+.srpVehiclePricing .btn-primary {
+    color: #fff;
+    text-shadow: 1px 1px #c64600;
+    letter-spacing: 1px;
+    background: #ff6e02;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #ff6e02 0%, #ec5300 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6e02), color-stop(100%, #ec5300));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #ff6e02 0%, #ec5300 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #ff6e02 0%, #ec5300 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #ff6e02 0%, #ec5300 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #ff6e02 0%, #ec5300 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff6e02', endColorstr='#ec5300', GradientType=0);
+    /* IE6-9 */
+    
+    border-color: #c64600;
+}
+.srpVehiclePricing .btn-primary:hover, .srpVehiclePricing .btn-primary:focus, .srpVehiclePricing .btn-primary:active, .srpVehiclePricing .btn-primary.active {
+    color: #fff;
+    background: #ec5300;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #ec5300 0%, #ec5300 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ec5300), color-stop(100%, #ec5300));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #ec5300 0%, #ec5300 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #ec5300 0%, #ec5300 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #ec5300 0%, #ec5300 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #ec5300 0%, #ec5300 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ec5300', endColorstr='#ec5300', GradientType=0);
+    /* IE6-9 */
+    
+    border-color: #c64600;
+}
+.galleria-exit {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    z-index: 10;
+}
+/*------------------------------------*
+	$Lot Separator
+\*------------------------------------*/
+
+#lotSeparator.otherLot, #lotSeparator.myLot {
+    background: none repeat scroll 0 0 #4593D3;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-size: 26px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 6px;
+    width: 100%;
+}
+/*------------------------------------*
+	$MEDIA QUERY
+\*------------------------------------*/
+
+@media (min-width: 1200px) {
+    .srpVehicle .well-pad-none {
+        padding-right: 15px;
+    }
+    #rebateModal .modal-dialog {
+        width: 44%;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .srpTags .panel-title {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1199px) {
+    .galleria-container {
+        width: 100%!important;
+    }
+    .srpTags ul, .srpTags ul li {
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
+    .pageTitle {
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 998px) {
+    .row.margin-top:first-child {
+        margin-top: 0px;
+    }
+    .srpCompare {
+        margin-bottom: -14px!important;
+    }
+    .srpTags ul, .srpTags ul li {
+        margin-bottom: 0px!important;
+    }
+    .srpInventorySearch .form-horizontal .input-group:first-child {
+        padding-right: 6px;
+    }
+    .srpInventorySearch .form-horizontal .input-group:last-child {
+        padding-left: 6px;
+    }
+}
+@media (max-width: 991px) {
+	.row-offcanvas .sidebar-offcanvas {
+	    -webkit-transition: opacity .25s ease-out;
+	    transition: opacity .25s ease-out;
+	    opacity: 0;
+	}
+
+	.row-offcanvas.active .sidebar-offcanvas {
+	    opacity: 1;
+	}
+}
+@media (max-width: 767px) {
+    .row.margin-top:first-child {
+        margin-top: 0px;
+    }
+    .pagination li a {
+        line-height: 24px;
+        padding: 4px 8px;
+    }
+    .srpVehicle .vehicleTitleContainer {
+        margin-bottom: 8px;
+    }
+    .srpTags ul, .srpTags ul li {
+        margin-bottom: 6px!important;
+    }
+    .srpVehicle .srpVehicleDetails.visible-xs {
+        padding-left: 12px;
+        margin-top: 6px;
+    }
+    .srpVehicle .srpVehicleDetails.visible-xs li {
+        font-size: 10px;
+        line-height: 12px!important;
+        display: block!important;
+        float: left;
+    }
+    .srpVehicle .srpVehicleIncentives {
+        padding-bottom: 15px;
+    }
+    .srpVehicle ul {
+        margin-top: -4px;
+    }
+    .srpVehicle ul.srpVehicleDetails {
+        margin-top: 12px!important;
+        margin-bottom: 0px;
+    }
+    .srpVehicle ul.srpVehicleDetails li {
+        display: inline-block;
+        margin-right: 0px;
+    }
+    .srpVehicle ul.srpVehicleDetails li:after {
+        content: ",";
+    }
+    .srpVehicle ul.srpVehicleDetails li:last-child:after {
+        content: normal;
+    }
+    .srpVehicle .srpVehicleDetails strong:not(.label-visible-xs) {
+        display: none;
+    }
+    .srpVehicle .vehicleTitleContainer .vehicleTitle .h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .srpVehicle .srpMobileIncentives {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .srpVehicle .vehicleImg {
+        margin-bottom: 15px;
+        border: 3px solid #CCCCCC;
+    }
+    .srpVehiclePricing .rebatePopover {
+        left: -.35em;
+    }
+    .specialMagnific {
+        padding-top: 100%;
+    }
+    .srpVehicle .well-pad-none{
+        overflow: visible;
+    } 
+}
+@media (max-width: 539px) {
+    .srpTags ul, .srpTags ul li {
+        margin-bottom: 6px;
+    }
+    .srpVehicle .srpVehicleDetails.visible-xs {
+        padding-left: 0px;
+    }
+    .srpVehicle .vehicleTitleContainer .vehicleTitle .h2 {
+        font-size: 16px;
+        margin-top: -4px;
+    }
+    .srpVehicle .srpVehiclePricing li {
+        font-size: 13px;
+    }
+    .srpVehicle .srpVehiclePricing li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .srpVehicle .srpVehiclePricing .savePrice {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .srpVehicle .btnCTA .col-xs-6:first-child {
+        padding-right: 7px !important;
+    }
+    .srpVehicle .btnCTA .col-xs-6:last-child {
+        padding-left: 7px !important;
+    }
+    .col-xxs-6 {
+        width: 50%;
+    }
+    .col-xxs-12 {
+        width: 100%;
+    }
+    .hidden-xxs {
+        display: none;
+    }
+    .srpVehiclePricing .rebatePopover {
+        left: -1em;
+    }
+}
+@media (max-width: 439px) {
+    .srpVehicle .vehicleTitleContainer .vehicleTitle .h2 {
+        font-size: 14px;
+        margin-top: -4px;
+    }
+    .srpVehicle .srpVehiclePricing li {
+        font-size: 12px;
+    }
+    .srpVehicle .srpVehicleDetails li {
+        font-size: 11px;
+    }
+    .pageTitle {
+        font-size: 22px;
+    }
+}
+@media (max-width: 369px) {
+    .srpVehicleSpecial {
+        height: 45px;
+        width: 45px;
+        background-size: 45px 45px;
+    }
+    .srpVehicleSpecial a {
+        height: 45px;
+        width: 45px;
+    }
+    .srpVehicle .vehicleTitleContainer .vehicleTitle .h2 {
+        font-size: 12px;
+        margin-top: -4px;
+    }
+    .srpVehicle .panel {
+        margin-bottom: 14px;
+    }
+}
+/*@media screen and (max-width: 767px) {*/
+
+@media screen and (max-width: 991px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+        -moz-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+    .row-offcanvas-left {
+        left: 0;
+    }
+    .row-offcanvas-left .sidebar-offcanvas {
+        left: -86%;
+        /* 6 columns */
+    }
+    .row-offcanvas-left.active {
+        left: 95%;
+        /* 6 columns */
+    }
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 86%;
+        /* 6 columns */
+    }
+    .row-offcanvas-left.active .sidebar-oncanvas {
+        opacity: 0.5;
+    }
+}
+
+
+ @media (max-width: 767px) {
+    /*
+     *  Create a 'row' essentially
+     */
+     .priceBlockResponsiveSrpMobileButtons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+        width: 100%;
+     }
+     /*
+      *  Create a 'col-**-6' essentially
+      */
+     .priceBlockResponsiveSrpMobileButtons .priceBlockItem {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 50%;
+                flex: 1 1 50%;
+     }
+ }
+ @media (max-width: 539px) {
+     .priceBlockResponsiveSrpMobileButtons .priceBlockItem {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+     }
+ }
+
+.priceBlockItem {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.priceBlockItemImage,
+.priceBlockItemImage * {
+	display: block;
+	max-width: 100%;
+}
+
+
+.priceBlockItemButton {
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+}
+
+.priceBlockItemButton a {
+    cursor: pointer;
+}
+
+.priceBlockItemRebates > ul {
+    flex: 1;
+}
+
+@media (max-width: 767px) {
+    .priceBlockResponsiveSrpMobileButtons .priceBlockItem:nth-child(2n+2) { padding-left: 8px; }
+}
+@media (max-width: 539px) {
+    .priceBlockResponsiveSrpMobileButtons .priceBlockItem:nth-child(2n+2) { padding-left: 0; }
+}
+
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+	.priceBlockItemButton {
+		flex-flow: wrap;
+	}
+	.priceBlockItemButton a {
+		width: 100%;
+		overflow: hidden;
+	}
+	.priceBlockItemButton a img {
+		flex: 1;
+	}
+}
+
+
+.driveItNow{
+float:right;
+}
+@media (max-width: 767px){
+.driveItNow {
+    float:initial;
+}
+}
+.unstyled-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+/*------------------------------------*
+	$TOYOTA DIGITAL GARAGE
+\*------------------------------------*/
+.tdg-heart { display: inline-block }
+
+/*------------------------------------*
+	$ELIGIBLE BENEFIT
+\*------------------------------------*/
+.srpVehicle.hasVehicleInfo .benefitRow {
+	display: flex;
+    align-items: center;
+}
+
+.srpVehicle.hasVehicleInfo .eligibleBenefit img {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* price and payment filter */
+
+#srpRefineSearch_Filters .range-wrapper .rangeLabel {
+    align-items: center;
+    justify-content: center;
+}
+
+#srpRefineSearch_Filters .range-wrapper .rangeLabel .input-container {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+#srpRefineSearch_Filters .range-wrapper .rangeLabel .input-currency::before {
+    position: absolute;
+    content: "$";
+    transform: translateY(-50%);
+    top: 50%;
+    font-size: 16px;
+    left: 10px;
+}
+
+#srpRefineSearch_Filters .range-wrapper input {
+    border: 2px solid #e6e6e6;
+    color: #666;
+    background: #fff;
+    width: 100%;
+    padding: 8px 10px 8px 24px;
+    border-radius: 5px;
+}
+
+#srpRefineSearch_Filters .range-wrapper input:focus {
+    border: 2px solid;
+    outline: none;
+}
+
+#srpRefineSearch_Filters .multi-tabs.flex-box li {
+    flex: 1;
+}
+
+#srpRefineSearch_Filters .multi-tabs li a {
+    background: #fff;
+    color: #333;
+    border-radius: 0;
+    border: 2px solid #e6e6e6;
+}
+
+#srpRefineSearch_Filters .multi-tabs li.active a {
+    color: #fff
+}
+
+#srpRefineSearch_Filters .multi-tabs li:first-of-type a {
+    border: 2px solid #e6e6e6;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 21px;
+    border-right: 0;
+}
+
+#srpRefineSearch_Filters .multi-tabs li:last-of-type a {
+    border: 2px solid #e6e6e6;
+    border-top-left-radius: 0;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+
+#srpRefineSearch_Filters .custom-checkbox {
+    position: relative;
+}
+
+#srpRefineSearch_Filters .custom-checkbox input {
+    height: 20px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: calc(50% - 10px);
+    width: 20px;
+    margin-top: 0px;
+}
+
+#srpRefineSearch_Filters .custom-checkbox label {
+    cursor: pointer;
+    display: block;
+    padding: 8px 0 8px 30px;
+    margin-bottom: 0px;
+    line-height: 1;
+    font-family: inherit;
+}
+
+#srpRefineSearch_Filters .custom-checkbox input+label::before {
+    border: 1px solid #333333;
+    border-radius: 6px;
+    content: "";
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: calc(50% - 10px);
+    width: 20px;
+}
+
+#srpRefineSearch_Filters .custom-checkbox input+label::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 14px;
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+}
+
+#srpRefineSearch_Filters .custom-checkbox input:checked+label::after {
+    opacity: 1;
+    color: #333333;
+    border-radius: 6px;
+}
+
+#srpRefineSearch_Filters .special-only .custom-checkbox label {
+    padding-top: 0;
+}
+
+#srpRefineSearch_Filters .special-only .custom-checkbox input+label::before {
+    top: 0;
+}
+
+#srpRefineSearch_Filters .special-only .custom-checkbox input:checked+label::after {
+    top: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#srpRefineSearch_Filters .panel .tab-panel.active {
+    display: block;
+}
+
+#srpRefineSearch_Filters .panel .tab-panel {
+    display: none;
+}
+
+.width-140{
+	width:140px;
+}
+
+/*------------------------------------*
+	$CONSUMER REPORTS
+\*------------------------------------*/
+.trustmark-image {
+	width: 300px;
+}
+
+/*------------------------------------*
+	$CARBRAVO
+\*------------------------------------*/
+
+.carBravoVehicle {
+    outline: #6BC24A solid;
+}
+
+.bravoBudgetVehicle img {
+	position: absolute;
+	top: 3px;
+	height: 25px;
+	z-index: 10;
+	pointer-events: none;
+	right: 18px;
+}
